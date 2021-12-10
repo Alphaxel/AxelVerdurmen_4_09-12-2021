@@ -653,7 +653,6 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
 .container {
     max-width: 1000px;
 }
@@ -753,7 +752,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(58, 54, 43);
     padding: 40px 40px 40px 40px;
 }
 
@@ -1039,4 +1038,30 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+/**AJOUTS**/
+
+.txt_presentation{
+    font-size: 21px;
+    margin:auto;
+    width:80%;
+}
+
+.citation_quote{
+    font-style: italic;
+    font-size: 20px;
+    margin:0px;
+}
+
+.citation_name{
+    font-size: 16px;
+    margin:0px;
+}
+
+.demo_text{
+    font-size: 20px;
+    width:300px;
+    margin:auto;
 }

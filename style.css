@@ -1069,3 +1069,8 @@ h4 {
 .black_txt{
     color:#000000!important;
 }
+
+.img-responsive{
+    height: auto;
+    width: auto;
+}

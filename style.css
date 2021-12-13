@@ -782,7 +782,6 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #000000!important;
 }
 
 .ltc-white {
@@ -1023,6 +1022,27 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+.portfolio-thumb {
+    max-width: 320px;
+}
+    
+.portfolio_link{
+    width:fit-content;
+    margin:auto;
+}
+
+.portfolio_txt{
+    margin-bottom: 35px;
+}
+
+.social{
+    display:flex;
+    justify-content: space-around;
+}
+.col-sm-3{
+    width: 25%;
+}
 }
 
 @media (max-width: 400px) {
@@ -1070,7 +1090,3 @@ h4 {
     color:#000000!important;
 }
 
-.img-responsive{
-    height: auto;
-    width: auto;
-}

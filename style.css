@@ -11,7 +11,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -462,7 +461,6 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
 }
 
 .btn-rd {
@@ -780,8 +778,9 @@ h4 {
     color: #000000!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
     background: #c27956!important;
+    outline:none;
 }
 
 .ltc-white {
@@ -1090,3 +1089,14 @@ h4 {
     color:#000000!important;
 }
 
+.portfolio_link:focus{
+    outline:2px solid black;
+}
+
+a:focus{
+    outline:1px solid grey;
+}
+
+a:active{
+    outline:none!important;
+}
